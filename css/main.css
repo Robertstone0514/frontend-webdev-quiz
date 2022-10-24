@@ -1,0 +1,128 @@
+a:hover {
+    text-decoration: none;
+}
+.Bootstrap-tab {
+    background-color: rgb(40, 167, 69);
+}
+#help {
+    border: none;
+    opacity: .6;
+    margin-top: .1em;
+}
+body {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+.background-black {
+    background-color: black;
+}
+.background-white {
+    background-color: white;
+}
+.black {
+    background-color: black;
+}
+#help:hover {
+    opacity: 1;
+}
+button:focus {
+    outline-color: transparent;
+}
+#closeBtn {
+    color: rgba(23, 24, 24, 0.829);
+}
+.container {
+    margin-top: 8rem;
+}
+#choices {
+    font-size: 1.5rem;
+}
+#champ {
+    font-family: Snell;
+    position: relative;
+    top: 9.4rem;
+    color: black;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.img-cont {
+    position: relative;
+    top: 8vh;
+}
+#name {
+    background-color: rgba(172, 172, 172, 0.651);
+    border: 1px solid black;
+}
+label {
+    width: auto;
+}
+label:hover {
+    font-weight: bolder;
+    color: rgb(204, 152, 21);
+}
+#champNameA {
+    font-size: 1.5rem;
+}
+#champNameB {
+    font-size: 1.5rem;
+}
+#champNameC {
+    font-size: 1.5rem;
+}
+.champTrophy {
+    font-size: 800%;
+    line-height: 10.375rem;
+}
+.white-text {
+    color: whitesmoke;
+}
+.HTML-tab {
+    background-color: red;
+}
+.CSS-tab {
+    background-color: rgb(65, 68, 221);
+}
+.Javascript-tab {
+    background-color: rgb(255, 193, 7);
+}
+.JQuery-tab {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+#soundImg {
+    width: 2rem;
+}
+#yesBtn {
+    border-color: transparent;
+}
+#noBtn {
+    border-color: transparent;
+}
+@media screen and (min-width: 2400px) {
+    body {
+        font-size: 2em;
+   }
+    #soundImg {
+        margin-top: 1em;
+        width: 2.5em;
+   }
+    .logo {
+        height: 10rem;
+   }
+    h3 {
+        font-size: 1.3em;
+   }
+    label {
+        font-size: 1.3em;
+   }
+    #submit {
+        height: 3.5em;
+   }
+    #name {
+        border: 1px solid black;
+   }
+}

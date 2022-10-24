@@ -1,0 +1,127 @@
+/* ----------- TOP TABS ------------- */
+.red-p {
+    animation: pulse-R 2.5s ease-in-out infinite 
+}
+@keyframes pulse-R {
+    0% {
+       background-color: red;
+   }
+    50% {
+       background-color: rgb(255, 255, 255);
+   }
+    100% {
+       background-color: red;
+   }
+}
+.blue-p {
+    animation: pulse-B 2.5s ease-in-out infinite 
+}
+@keyframes pulse-B {
+    0% {
+       background-color: rgb(65, 68, 221);
+   }
+    50% {
+       background-color: rgb(255, 255, 255);
+   }
+    100% {
+       background-color: rgb(65, 68, 221);
+   }
+}
+.yellow-p {
+    animation: pulse-Y 2.5s ease-in-out infinite 
+}
+@keyframes pulse-Y {
+    0% {
+       background-color: rgb(255, 193, 7);
+   }
+    50% {
+       background-color: rgb(255, 255, 255);
+   }
+    100% {
+       background-color: rgb(255, 193, 7);
+   }
+}
+.black-p {
+   animation: pulse-Bl 2.5s ease-in-out infinite
+}
+@keyframes pulse-Bl {
+    0% {
+       background-color: rgb(0, 0, 0);
+   }
+    50% {
+       background-color: rgb(255, 255, 255);
+   }
+    100% {
+       background-color: rgb(0, 0, 0);
+   }
+}
+.green-p {
+    animation: pulse-G 2.5s ease-in-out infinite
+}
+@keyframes pulse-G {
+    0% {
+       background-color: rgb(40, 167, 69);
+   }
+    50% {
+       background-color: rgb(255, 255, 255);
+   }
+    100% {
+       background-color: rgb(40, 167, 69);
+   }
+}
+/* -------------------MENU BUTTONS------------------------------ */
+.start-btn {
+    animation: start-btn 2.5s ease 0s infinite;
+}
+@keyframes start-btn {
+    0% {
+        box-shadow: #adadadd2 0 .5rem 1rem;
+   }
+    50% {
+        box-shadow: #adadadd2 0 .5rem 3rem;
+   }
+    100% {
+        box-shadow: #adadadd2 0 .5rem 1rem;
+   }
+}
+.highScore-btn {
+    animation: highScore-btn 2.5s ease 0s infinite;
+}
+@keyframes highScore-btn {
+    0% {
+        box-shadow: #ce0000d2 0 .5rem 1rem;
+   }
+    50% {
+        box-shadow: #ec1515d2 0 .5rem 3rem;
+   }
+    100% {
+        box-shadow: #940000d2 0 .5rem 1rem;
+   }
+}
+.instructions-btn {
+    animation: instructions-btn 2.5s ease 0s infinite;
+}
+@keyframes instructions-btn {
+    0% {
+        box-shadow: #ffee01d2 0 .5rem 1rem;
+   }
+    50% {
+        box-shadow: #d6c805d2 0 .5rem 3rem;
+   }
+    100% {
+        box-shadow: #889702d2 0 .5rem 1rem;
+   }
+}
+/* -----------------CARDS------------------ */
+.card {
+    background-color: transparent;
+    border: none;
+    transition: transform 1s linear;
+    transform-style: preserve-3d;
+}
+.side {
+    backface-visibility: hidden;
+}
+.back {
+    background: transparent;
+}
